@@ -5,6 +5,7 @@ enum COLORS{
 };
 #define bg(c) (c+10)		//macro definition
 //function declaration
+
 void clearScreen(void);
 void setColors(short fg, short bg);
 void resetColors(void);
