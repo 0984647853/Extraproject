@@ -41,7 +41,6 @@ void clearScreen(void)
 	printf("\033[2J");
 	fflush(stdout);		//output the escape sequence immediately
 }
-
 void setColors(short fg, short bg)
 {
 	printf("\033[%d;%d;1m",fg,bg);
