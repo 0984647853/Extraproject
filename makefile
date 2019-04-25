@@ -9,6 +9,5 @@ $(APPNAME) : $(OBJ)
 
 clean :
 	rm $(OBJ) $(APPNAME)
-
 zip : 
 	tar cf sound.tar *.c *.h makefile
