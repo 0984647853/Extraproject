@@ -1,8 +1,10 @@
 #include<stdio.h>
 #include<string.h>
+#include <stdlib.h>
 #include"screen.h"
 void findDuplicate(void);
 int main() {
+	system("wget http://www.cc.puv.fi/~gc/wlist.txt");
 	FILE *f;
 	f = fopen("wlist.txt", "r");
 	if (f == NULL) {
